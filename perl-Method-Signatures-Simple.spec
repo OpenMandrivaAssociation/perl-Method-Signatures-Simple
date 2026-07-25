@@ -1,15 +1,15 @@
 %define upstream_name    Method-Signatures-Simple
-%define upstream_version 0.06
+%define upstream_version 1.07
 
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version %{upstream_version}
-Release:	5
+Version:	%{upstream_version}
+Release:	1
 
 Summary:	Basic method declarations with signatures, without source filters
 License:	GPL+ or Artistic
 Group:		Development/Perl
-Url:		https://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/Method/%{upstream_name}-%{upstream_version}.tar.gz
+Url:		https://github.com/rhesa/method-signatures-simple
+Source0:	https://cpan.metacpan.org/authors/id/R/RH/RHESA/Method-Signatures-Simple-%{upstream_version}.tar.gz
 
 BuildRequires:	make
 BuildRequires:	perl-devel
